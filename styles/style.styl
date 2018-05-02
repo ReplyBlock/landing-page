@@ -1,0 +1,111 @@
+body
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight bold;
+  color: #FFFFFF;
+
+h1
+  font-size 50px;
+  @media(max-width: 767px)
+    font-size 30px;
+
+h4
+  font-size 30px;
+  @media(max-width: 767px)
+    font-size 16px;
+
+.d-mt150
+  @media(min-width: 768px)
+    margin-top 150px
+
+.d-mt100
+  @media(min-width: 768px)
+    margin-top 100px
+
+.d-mt70
+  @media(min-width: 768px)
+    margin-top 70px
+
+.m-mt50
+  @media(max-width: 767px)
+    margin-top 50px
+
+.mb50
+  margin-bottom: 50px
+
+.w100
+  width 100%
+
+.w70
+  width 70%
+
+.d-text-right
+  @media(min-width: 768px)
+    text-align: right
+
+.header
+  background #56CBE8
+  min-height 100vh
+  padding 100px 0
+  @media(max-width: 767px)
+    padding 70px 0
+
+  .down-btn
+    position absolute
+    bottom 10px
+    left 50%
+    transform translateX(-50%)
+    height 30px
+    width 30px
+    cursor pointer
+    animation-iteration-count: infinite
+    opacity 0.7
+    transition 0.3s all
+
+    &:hover
+      opacity 1
+
+  .img1
+    max-height: 80vh
+    max-width: 100%
+
+.section
+  padding: 100px 0;
+  @media(max-width: 767px)
+    padding 50px 0 70px 0;
+
+.section2
+  background-image: url('/imgs/bg2.png')
+  background-size: cover
+  background-position: center
+  min-height 100vh
+
+.section3
+  background-color: #56CBE8
+
+.section4
+  background-color: #1DA1F2
+
+.section5
+  background-image: url('/imgs/bg6.png')
+  background-size: cover
+  background-position: center
+  min-height 300px
+  padding: 100px 0
+
+.footer
+  background-color: #1DA1F2
+  padding 60px 0;
+  &-header
+    font-size: 36px;
+    color: #C3E4F8;
+    margin-bottom 20px
+    @media(max-width: 767px)
+      font-size: 20px
+      margin-bottom 10px
+
+  .link
+    color #ffffff
+    font-size 20px
+    @media(max-width: 767px)
+      font-size: 16px
