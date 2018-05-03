@@ -23,6 +23,10 @@
 
 <body>
 
+  <div class="text-center p10">
+    <img src="./imgs/logo.png" width="30px" />
+  </div>
+
   <header class="header">
     <div class="container">
       <div class="row">
@@ -41,7 +45,6 @@
       </a>
     </div>
   </header>
-
   <section id="section2" class="section section2">
     <div class="container">
       <div class="row">
@@ -56,8 +59,11 @@
         </div>
       </div>
     </div>
+    <a href="#section3" class="scroll hidden-xs">
+      <img src="./imgs/down-arrow.svg" class="down-btn animated pulse"/>
+    </a>
   </section>
-  <section class="section section3">
+  <section id="section3" class="section section3">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -71,17 +77,24 @@
         </div>
       </div>
     </div>
+    <!-- <a href="#section4" class="scroll hidden-xs">
+      <img src="./imgs/down-arrow.svg" class="down-btn animated pulse"/>
+    </a> -->
   </section>
-  <section class="section section4">
+  <section id="section4" class="section section4">
     <div class="container">
       <div class="row">
-        <div class="col-sm-5 hidden-xs">
-          <img src="./imgs/img5.png" class="w100"/>
+        <div class="col-sm-5 hidden-xs text-center">
+          <img src="./imgs/img5.png" class="w70"/>
         </div>
-        <div class="col-sm-7 text-right">
+        <div class="col-sm-7">
           <div class="d-mt70 mb50">
-            <h1>And the more we share,</h1>
-            <h4>the more we have</h4>
+            <div class="text-left">
+              <h1>And the more we share,</h1>
+            </div>
+            <div class="text-right">
+              <h4>the more we have</h4>
+            </div>
           </div>
         </div>
         <div class="col-sm-5 visible-xs text-center">
@@ -89,14 +102,18 @@
           </div>
       </div>
     </div>
+    <!-- <a href="#section5" class="scroll hidden-xs">
+      <img src="./imgs/down-arrow.svg" class="down-btn animated pulse"/>
+    </a> -->
   </section>
-  <section class="section5">
+  <section id="section5" class="section section5">
     <div class="container text-center">
+      <img src="./imgs/logo.png" width="50px" class="mb50" />
       <h4>To make crypro community</h4>
       <h1>Closer and stronger</h1>
     </div>
   </section>
-  <section class="footer">
+  <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -104,9 +121,15 @@
             Be part of us
           </div>
           <div class="row">
-            <div class="col-sm-3"><a href="#" class="link">Web</a></div>
-            <div class="col-sm-3"><a href="#" class="link">iOS</a></div>
-            <div class="col-sm-3"><a href="#" class="link">Android</a></div>
+            <div class="col-sm-3"><a href="#" class="link">
+              <img src="./imgs/web.png" />
+            </a></div>
+            <div class="col-sm-3"><a href="#" class="link">
+              <img src="./imgs/appstore.png" />
+            </a></div>
+            <div class="col-sm-3"><a href="#" class="link">
+              <img src="./imgs/googleplay.png" />
+            </a></div>
           </div>
         </div>
         <div class="col-sm-6 d-text-right">
@@ -120,7 +143,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </footer>
 
   <!--SCRIPTS-->
   <script src="js/production.min.js"></script>
