@@ -16,4 +16,11 @@ $(document).ready(function () {
     }
   );
   wow.init();
+
+  $(".video-intro").videoPopup({
+    autoplay: 1,
+    controlsColor: 'white',
+    showVideoInformations: 0,
+    width: 1000
+  });
 });
